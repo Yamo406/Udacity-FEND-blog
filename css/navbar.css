@@ -1,42 +1,47 @@
 @import url(layout.css);
 
-#navigation-bar
-{
-    border: 2px solid green;
-    grid-area: navbar;
-    width: 100%;
-    padding: 8px;
-    position: sticky;
-    font-weight: 600;
-}
-
-#navigation-bar #logo
-{
-    margin-right: auto;
-
-}
-
-#navigation-bar ul
+.navigation-bar
 {
     display: flex;
+    align-items: center;
+    margin: 0;
+    border: 2px solid green;
+    min-width: 100%;
+    padding: 8px;
+    /* background-color: #fefff8; */
+    position: sticky;
+    top: 0;
+    font-weight: 600;
+    align-items: center;
+}
+
+.navigation-bar .logo
+{
+    margin-right: auto;
+}
+
+.navigation-bar ul
+{
+    display: flex;
+    min-width: 100%;
     align-items: center;
     gap: 16px;
     list-style-type: none;
 }
 
-#navigation-bar img
+.navigation-bar img
 {
     width: 32px;
     height: auto;
 }
 
-#navigation-bar ul a
+.navigation-bar ul a
 {
     color: #555;
     text-decoration: none;
 }
 
-#navigation-bar ul a:hover
+.navigation-bar ul a:hover
 {
     text-decoration: underline;
 

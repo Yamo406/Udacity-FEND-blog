@@ -1,24 +1,16 @@
 body
 {
     display: grid;
-    grid-template-columns: 50px 1fr 1fr;
-    grid-template-rows: 100px 50px 1fr 100px 100px 100px;
-    /* grid-template-rows: auto; */
+    grid-template-columns: 150px 1fr 1fr;
+    grid-template-rows: 50px 1fr 50px;
     grid-template-areas:
-        "header header header"
         "navbar navbar navbar"
-        "sidebar main main"
         "sidebar main main"
         "footer footer footer"
     ;
 }
 
-#header
-{
-    grid-area: header;
-}
-
-#navigation-bar
+.navigation-bar
 {
     grid-area: navbar;
     background: pink;
@@ -27,25 +19,38 @@ body
 #sidebar
 {
     grid-area: sidebar;
-    background: blue;
+
 }
 
 #main
 {
     grid-area: main;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
+    display: grid;
+    grid-template-columns: 15% 1fr 1fr;
+    grid-template-rows: 40% 60%;
     grid-template-areas:
-        "featured featured"
-        "cards cards"
-        "cards cards"
+        "featured featured featured"
+        "cards  cards cards"
+        "cards  cards cards"
     ;
     background: red;
 }
 
+#featured
+{
+    grid-area: featured;
+    background: yellowgreen;
+}
+
+.cards-wrapper
+{
+    background-color: cadetblue;
+    grid-area: cards;
+}
 
 
-#footer
+
+.footer
 {
     grid-area: footer;
     background: green;

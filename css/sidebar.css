@@ -1,7 +1,10 @@
 #sidebar
 {
-    grid-area: sidebar;
+    display: flex;
     background-color: #aaa;
+    justify-content: center;
+    font-weight: 600;
+    font-style: italic;
 }
 
 #sidebar a
@@ -13,4 +16,9 @@
 #sidebar a:hover
 {
     text-decoration: underline;
+}
+
+#sidebar ul
+{
+    list-style-type: none;
 }
