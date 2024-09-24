@@ -2,9 +2,10 @@ body
 {
     display: grid;
     grid-template-columns: 150px 1fr 1fr;
-    grid-template-rows: 50px 1fr 50px;
+    grid-template-rows: 50px 100px 1fr 10vh;
     grid-template-areas:
         "navbar navbar navbar"
+        "header header header"
         "sidebar main main"
         "footer footer footer"
     ;
@@ -14,6 +15,11 @@ body
 {
     grid-area: navbar;
     background: pink;
+}
+
+.header
+{
+    grid-area: header;
 }
 
 #sidebar
@@ -26,11 +32,10 @@ body
 {
     grid-area: main;
     display: grid;
-    grid-template-columns: 15% 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 40% 60%;
     grid-template-areas:
         "featured featured featured"
-        "cards  cards cards"
         "cards  cards cards"
     ;
     background: red;

@@ -5,12 +5,13 @@
     justify-content: center;
     font-weight: 600;
     font-style: italic;
+    padding: 20%;
 }
 
 #sidebar a
 {
     text-decoration: none;
-    color: #fff;
+    color: #555;
 }
 
 #sidebar a:hover
@@ -20,5 +21,14 @@
 
 #sidebar ul
 {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 16px;
     list-style-type: none;
+
+}
+
+#sidebar ul li
+{
+
 }
