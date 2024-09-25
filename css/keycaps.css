@@ -1,6 +1,6 @@
-@import url(../../css/blog-page-layout.css);
-@import url(../../css/navbar.css);
-@import url(../../css/footer.css);
+@import url(blog-page-layout.css);
+@import url(navbar.css);
+@import url(footer.css);
 
 * {
     font-size: 16px;
@@ -60,4 +60,21 @@ body {
     display: flex;
     flex-flow: column wrap;
     gap: 4px;
+}
+
+#main .button {
+    background-color: #ddcaa1;
+    border-radius: 16px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+#main .button button {
+    border-radius: 8px;
+    background-color: #b1a282;
+    padding: 8px;
+    color: #fff;
 }

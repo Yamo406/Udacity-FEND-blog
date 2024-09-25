@@ -17,11 +17,17 @@
 
 }
 
-#featured img
+#featured figure img
 {
     border-radius: 16px;
     width: 250px;
     height: auto;
+}
+
+#featured figure figcaption
+{
+    color: #c7a864;
+    text-align: center;
 }
 
 #featured p
