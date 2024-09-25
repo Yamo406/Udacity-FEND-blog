@@ -32,3 +32,32 @@ body {
     height: auto;
     border-radius: 16px;
 }
+
+#main .author {
+    display: flex;
+    text-align: start;
+    gap: 8px;
+
+}
+
+#main .author img {
+    align-items: start;
+    width: 64px;
+    height: auto;
+
+}
+
+#main .author a {
+    text-decoration: none;
+    color: #000;
+}
+
+#main .author a:hover {
+    text-decoration: underline;
+}
+
+#main .author .author-info {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 4px;
+}
