@@ -55,10 +55,10 @@ body
 {
     grid-area: footer;
     display: grid;
-    grid-template: 50px 1fr / 80% 20%;
+    grid-template: 1fr 50px / 80% 20%;
     grid-template-areas:
-        "copyrights copyrights"
         "about contact"
+        "copyrights copyrights"
     ;
 }
 
