@@ -5,10 +5,9 @@
     display: flex;
     align-items: center;
     margin: 0;
-    border: 2px solid green;
     min-width: 100%;
     padding: 8px;
-    /* background-color: #fefff8; */
+    background-color: #ddcaa1;
     position: sticky;
     top: 0;
     font-weight: 600;

@@ -2,7 +2,7 @@
 
 #main
 {
-    background-color: brown;
+    background-color: #fff3da;
 }
 
 #featured
@@ -20,7 +20,7 @@
 #featured img
 {
     border-radius: 16px;
-    width: 300px;
+    width: 250px;
     height: auto;
 }
 
@@ -28,5 +28,6 @@
 {
     text-align: center;
     font-weight: 600;
+    font-size: 14.5px;
     color: #000000;
 }

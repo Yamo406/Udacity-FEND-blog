@@ -2,7 +2,7 @@ body
 {
     display: grid;
     grid-template-columns: 150px 1fr 1fr;
-    grid-template-rows: 50px 100px 1fr 10vh;
+    grid-template-rows: 50px 100px 1fr max-content;
     grid-template-areas:
         "navbar navbar navbar"
         "header header header"
@@ -14,7 +14,6 @@ body
 .navigation-bar
 {
     grid-area: navbar;
-    background: pink;
 }
 
 .header
@@ -38,18 +37,15 @@ body
         "featured featured featured"
         "cards  cards cards"
     ;
-    background: red;
 }
 
 #featured
 {
     grid-area: featured;
-    background: yellowgreen;
 }
 
 .cards-wrapper
 {
-    background-color: cadetblue;
     grid-area: cards;
 }
 
@@ -58,5 +54,25 @@ body
 .footer
 {
     grid-area: footer;
-    background: green;
+    display: grid;
+    grid-template: 50px 1fr / 80% 20%;
+    grid-template-areas:
+        "copyrights copyrights"
+        "about contact"
+    ;
+}
+
+.copyrights
+{
+    grid-area: copyrights;
+}
+
+.about
+{
+    grid-area: about;
+}
+
+.contact
+{
+    grid-area: contact;
 }

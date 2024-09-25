@@ -1,11 +1,71 @@
 .footer
 {
-    display: flex;
+    background-color: #b1a282;
     color: #555;
-    /* width: 100%; */
-    /* height: 100%; */
-    grid-area: footer;
-    border: solid 2px purple;
+    padding: 8px;
+    width: 100%;
+}
+
+.copyrights
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyrights p
+{
+    color: #ddcaa1;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.links
+{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.about
+{
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    justify-content: space-around;
+    padding: 8px;
+    gap: 8px;
+}
+
+.contact
+{
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    gap: 8px;
     justify-content: center;
     align-items: center;
+    margin-left: auto;
+    text-align: center;
+}
+
+.contact ul
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 8px;
+}
+
+.contact ul li
+{
+    justify-content: center;
+    align-items: center;
+}
+
+.contact ul i
+{
+    color: #555;
 }

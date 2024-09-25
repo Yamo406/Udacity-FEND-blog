@@ -18,8 +18,7 @@
 body
 {
     min-height: 100vh;
-    background-color: #fefff8;
+    background-color: #ddcaa1;
     color: #fff;
-    border: 2px solid red;
     position: relative;
 }
