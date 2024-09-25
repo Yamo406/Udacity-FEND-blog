@@ -74,3 +74,29 @@ body
 {
     grid-area: contact;
 }
+
+@media(min-width:901px)
+{
+    #main
+    {
+        grid-area: main;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 45% 55%;
+        grid-template-areas:
+            "featured featured featured"
+            "cards  cards cards"
+        ;
+    }
+
+    #featured
+    {
+        grid-area: featured;
+    }
+
+    .cards-wrapper
+    {
+        grid-area: cards;
+    }
+
+}
