@@ -51,7 +51,7 @@
     text-align: center;
 }
 
-.contact ul
+.contact .socials
 {
     display: flex;
     list-style-type: none;
@@ -59,13 +59,13 @@
     gap: 8px;
 }
 
-.contact ul li
+.contact .socials li
 {
     justify-content: center;
     align-items: center;
 }
 
-.contact ul i
+.contact .socials i
 {
     color: #555;
 }

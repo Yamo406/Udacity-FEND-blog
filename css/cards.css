@@ -7,13 +7,6 @@
     justify-content: space-evenly;
 }
 
-@media (max-wdith: 700px)
-{
-    .cards-wrapper
-    {
-
-    }
-}
 .cards-wrapper ul {
     list-style-type: none;
 }

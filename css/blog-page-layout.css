@@ -1,4 +1,40 @@
-*
+body {
+    display: grid;
+    grid-template: 50px 1fr max-content / 1fr;
+    grid-template-areas:
+        "navbar"
+        "main"
+        "footer"
+    ;
+}
+
+.navigation-bar {
+    grid-area: navbar;
+}
+
+#main
 {
-    
+    grid-area: main;
+}
+
+.footer {
+    grid-area: footer;
+    display: grid;
+    grid-template: 1fr 50px / 80% 20%;
+    grid-template-areas:
+        "about contact"
+        "copyrights copyrights"
+    ;
+}
+
+.copyrights {
+    grid-area: copyrights;
+}
+
+.about {
+    grid-area: about;
+}
+
+.contact {
+    grid-area: contact;
 }
