@@ -100,3 +100,29 @@ body
     }
 
 }
+
+@media(max-width:500px)
+{
+    body
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 50px 100px 100px 1fr max-content;
+        grid-template-areas:
+            "navbar "
+            "header "
+            "sidebar "
+            "main "
+            "footer"
+        ;
+    }
+
+    #sidebar ul
+    {
+        flex-flow: row wrap;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+}
